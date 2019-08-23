@@ -15,9 +15,9 @@ jobs:
       install: skip
       script: ./gradlew clean build
       before_deploy:
-        - git config --local user.name "Travis CI"
-        - git config --local user.email "travis@example.com"
-        - git tag -f $RELEASE_TAG
+        - git config --local user.name "kathiresanmoorthy"
+        - git config --local user.email "kathiresan.moorthy@perficient.com"
+        - git tag -f Rel1
       deploy:
         provider: releases
         api_key: b7a3a437a81f6971f2c94b2766592f7fce2c57f1
